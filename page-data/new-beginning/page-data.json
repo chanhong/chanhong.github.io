@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/new-beginning/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"CO-Gatsby Blog"}},"markdownRemark":{"id":"f9b4b1fe-9f23-5db8-b8c0-6e61fbb5a0bf","excerpt":"Wow! It is so nice to be able to use gh-pages for my Blog site.","html":"<p>Wow! It is so nice to be able to use gh-pages for my Blog site.</p>","frontmatter":{"title":"New Beginning!","date":"March 24, 2022","description":null}},"previous":{"fields":{"slug":"/gatsby-gh-pages/"},"frontmatter":{"title":"Gatsby Blog with gh-pages"}},"next":null},"pageContext":{"id":"f9b4b1fe-9f23-5db8-b8c0-6e61fbb5a0bf","previousPostId":"30db9594-8be3-554e-8f7d-8bc8f19c8ec1","nextPostId":null}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
