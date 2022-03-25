@@ -1,260 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 03:58:55 GMT</lastBuildDate><item><title><![CDATA[New Beginning!]]></title><description><![CDATA[Wow! It is so nice to be able to use gh-pages for my Blog site.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</guid><pubDate>Thu, 24 Mar 2022 17:00:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! It is so nice to be able to use gh-pages for my Blog site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog with gh-pages]]></title><description><![CDATA[How to build a Gatsby site on your local hard drive? Gatsby @GitHub How to add your Gatsby site to your GitHub Repo? . Create a new repo…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</guid><pubDate>Thu, 24 Mar 2022 15:48:32 GMT</pubDate><content:encoded>&lt;h2&gt;How to build a Gatsby site on your local hard drive?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 20:33:23 GMT</lastBuildDate><item><title><![CDATA[New Beginning!]]></title><description><![CDATA[Wow! It is so nice to be able to use gh-pages for my Blog site.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</guid><pubDate>Thu, 24 Mar 2022 17:00:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! It is so nice to be able to use gh-pages for my Blog site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog with gh-pages]]></title><description><![CDATA[How to build a Gatsby site on your local hard drive? Gatsby @GitHub How to add your Gatsby site to your GitHub Repo? Create a new repo Add…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</guid><pubDate>Thu, 24 Mar 2022 15:48:32 GMT</pubDate><content:encoded>&lt;h2&gt;How to build a Gatsby site on your local hard drive?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby @GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;How to add your Gatsby site to your GitHub Repo?&lt;/h2&gt;
-&lt;p&gt;. &lt;a href=&quot;https://docs.github.com/en/get-started/quickstart/create-a-repo&quot;&gt;Create a new repo&lt;/a&gt;
-. Add your new repo to your Gatsby site on your local hard drive using Git-cli&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;git init&lt;/li&gt;
-&lt;li&gt;git branch -M main&lt;/li&gt;
-&lt;li&gt;git remote add origin &lt;a href=&quot;https://github.com/%7Byourgithubuser%7D/%7Byourrepo%7D.git&quot;&gt;https://github.com/{yourgithubuser}/{yourrepo}.git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;git push -u origin main&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/get-started/quickstart/create-a-repo&quot;&gt;Create a new repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add your new repo to your Gatsby site on your local hard drive using Git-cli&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch -M main
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin https://github.com/&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;/&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;yourrepo&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;.git
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;How to add your Gatsby site to your GitHub gh-pages branch?&lt;/h2&gt;
 &lt;p&gt;Steps are below:&lt;/p&gt;
-&lt;h3&gt;How to add gh-pages branch to your GitHub Repo?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;git branch -M gh-pages&lt;/li&gt;
-&lt;li&gt;git push -u origin gh-pages&lt;/li&gt;
-&lt;li&gt;git branch -M main&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;How to add gh-pages related config to package.json?&lt;/h3&gt;
+&lt;h5&gt;How to add gh-pages branch to your GitHub Repo?&lt;/h5&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;    &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch -M gh-pages
+    &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push -u origin gh-pages
+    &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch -M main&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;How to add gh-pages related config to package.json?&lt;/h5&gt;
 &lt;p&gt;. Add gh-pages homepage property to package.json:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;{
-“name”: “my-app”,
-“version”: “0.1.0”,
-“homepage”: https://{username}.github.io/{repo-name},&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff&quot;&gt;&lt;code class=&quot;language-diff&quot;&gt;&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;   &quot;name&quot;: &quot;my-app&quot;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;   &quot;version&quot;: &quot;0.1.0&quot;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; + &quot;homepage&quot;: &quot;https://{username}.github.io/{repo-name}&quot;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;   &quot;private&quot;: true,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;. Add gh-pages deployment scripts to package.json:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;“scripts”: {
-“predeploy”: “npm run build”,
-“deploy”: “gh-pages -d build”,&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;How to deploy your Gatsby site to gh-pages branch of your GitHub repo?&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff&quot;&gt;&lt;code class=&quot;language-diff&quot;&gt;&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; &quot;scripts&quot;: {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; +   &quot;predeploy&quot;: &quot;npm run build&quot;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt; +   &quot;deploy&quot;: &quot;gatsby build --prefix-paths &amp;amp;&amp;amp; gh-pages -d public&quot;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;     &quot;start&quot;: &quot;react-scripts start&quot;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;     &quot;build&quot;: &quot;react-scripts build&quot;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;How to deploy your Gatsby site to gh-pages branch of your GitHub repo?&lt;/h5&gt;
 &lt;p&gt;. Deploy your Gatsby site to GitHub repo in gh-pages branch&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;npm run deploy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;How to enable gh-pages branch to show your Gatsby site?&lt;/h3&gt;
-&lt;p&gt;. Set your pages to gh-pages: &lt;a href=&quot;https://github.com/%7Byourgithubuser%7D/%7Byourrepo%7D/settings/pages&quot;&gt;https://github.com/{yourgithubuser}/{yourrepo}/settings/pages&lt;/a&gt;
-. Wait until the “Action” is done then you can see your published site at: https://{yourgithubuser}.github.io/{yourrepo}/&lt;/p&gt;
-&lt;p&gt;All done!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[My Gatsby Blog on gh-pages! How exciting! Some examples on how to use markup in Gatsby Blog. Oh, and here’s a great quote from this…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><pubDate>Thu, 24 Mar 2022 15:45:03 GMT</pubDate><content:encoded>&lt;p&gt;My Gatsby Blog on gh-pages! How exciting!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;  &lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;How to enable gh-pages branch to show your Gatsby site?&lt;/h5&gt;
+&lt;ol&gt;
+&lt;li&gt;Set your pages to gh-pages: &lt;a href=&quot;https://github.com/%7Busername%7D/%7Byourrepo%7D/settings/pages&quot;&gt;https://github.com/{username}/{yourrepo}/settings/pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wait until the “Action” is done then you can see your published site at: https://{username}.github.io/{yourrepo}/&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All done!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[My Gatsby Blog on gh-pages! How exciting! Some examples on how to use markup in Gatsby Blog. Gatsby Markdown syntax Markdown Kitchen Sink]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><pubDate>Thu, 24 Mar 2022 15:45:03 GMT</pubDate><content:encoded>&lt;p&gt;My Gatsby Blog on gh-pages! How exciting!&lt;/p&gt;
 &lt;p&gt;Some examples on how to use markup in Gatsby Blog.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMjv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QOoVoX//EAB0QAQEAAgIDAQAAAAAAAAAAAAERADFhgSFB0eH/2gAIAQEAAT8QSpwaGjrBSrtHyF9iY8RpUnGRBGqtOcsiDE6fM3AgiXf5M//Z&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Chinese Salty Egg&quot;
-        title=&quot;Chinese Salty Egg&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
-/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
-/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
-/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
-/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
-/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;You can also write code blocks here!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; saltyDuckEgg &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;chinese preserved food product&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;left&quot;&gt;Number&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Title&lt;/th&gt;
-&lt;th align=&quot;right&quot;&gt;Year&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;1&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Harry Potter and the Philosopher’s Stone&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;2001&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;2&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Harry Potter and the Chamber of Secrets&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;2002&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;3&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Harry Potter and the Prisoner of Azkaban&lt;/td&gt;
-&lt;td align=&quot;right&quot;&gt;2004&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;a href=&quot;https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md&quot;&gt;View raw (TEST.md)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is a paragraph.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This is a paragraph.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Header 1
-========
-
-Header 2
---------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;h4&gt;Header 4&lt;/h4&gt;
-&lt;h5&gt;Header 5&lt;/h5&gt;
-&lt;h6&gt;Header 6&lt;/h6&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Header 1&lt;/h1&gt;
-&lt;h2&gt;Header 2&lt;/h2&gt;
-&lt;h3&gt;Header 3&lt;/h3&gt;
-&lt;h4&gt;Header 4&lt;/h4&gt;
-&lt;h5&gt;Header 5&lt;/h5&gt;
-&lt;h6&gt;Header 6&lt;/h6&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# Header 1 #
-## Header 2 ##
-### Header 3 ###
-#### Header 4 ####
-##### Header 5 #####
-###### Header 6 ######&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;blockquote&gt;
-&lt;h2&gt;This is a header.&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;This is the first list item.&lt;/li&gt;
-&lt;li&gt;This is the second list item.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Here’s some example code:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown.generate();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&gt; ## This is a header.
-&gt; 1. This is the first list item.
-&gt; 2. This is the second list item.
-&gt;
-&gt; Here&apos;s some example code:
-&gt;
-&gt;     Markdown.generate();&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Red
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Green
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Blue
-
-&lt;span class=&quot;token list punctuation&quot;&gt;*&lt;/span&gt; Red
-&lt;span class=&quot;token list punctuation&quot;&gt;*&lt;/span&gt; Green
-&lt;span class=&quot;token list punctuation&quot;&gt;*&lt;/span&gt; Blue
-
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Red
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Green
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; Blue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;code goes&lt;/code&gt; here in this line&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; goes here&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token code-snippet code keyword&quot;&gt;`code goes`&lt;/span&gt; here in this line
-&lt;span class=&quot;token list punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token bold&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt; goes here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;Buy flour and salt&lt;/li&gt;
-&lt;li&gt;Mix together with water&lt;/li&gt;
-&lt;li&gt;Bake&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Buy flour and salt
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Mix together with water
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; Bake&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;code goes&lt;/code&gt; here in this line&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;bold&lt;/strong&gt; goes here&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markdown&quot;&gt;&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; &lt;span class=&quot;token code-snippet code keyword&quot;&gt;`code goes`&lt;/span&gt; here in this line
-&lt;span class=&quot;token list punctuation&quot;&gt;1.&lt;/span&gt; &lt;span class=&quot;token bold&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt; goes here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Paragraph:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;!-- --&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Paragraph:
-
-    Code&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;* * *
-
-***
-
-*****
-
-- - -
-
----------------------------------------&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This is &lt;a href=&quot;http://example.com&quot; title=&quot;Example&quot;&gt;an example&lt;/a&gt; link.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://example.com&quot;&gt;This link&lt;/a&gt; has no title attr.&lt;/p&gt;
-&lt;p&gt;This is &lt;a href=&quot;http://example.com&quot; title=&quot;Optional Title&quot;&gt;an example&lt;/a&gt; reference-style link.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This is [an example](http://example.com &quot;Example&quot;) link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example] [id] reference-style link.
-
-[id]: http://example.com &quot;Optional Title&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;em&gt;single asterisks&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;single underscores&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;double asterisks&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;double underscores&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This paragraph has some &lt;code class=&quot;language-text&quot;&gt;code&lt;/code&gt; in it.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This paragraph has some `code` in it.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img src=&quot;https://placehold.it/200x50&quot; alt=&quot;Alt Text&quot; title=&quot;Image Title&quot;&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![Alt Text](https://placehold.it/200x50 &quot;Image Title&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/reference/markdown-syntax/&quot;&gt;Gatsby Markdown syntax&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/adamschwartz/github-markdown-kitchen-sink&quot;&gt;Markdown Kitchen Sink&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
