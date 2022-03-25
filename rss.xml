@@ -1,92 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Mar 2022 23:59:51 GMT</lastBuildDate><item><title><![CDATA[New Beginning!]]></title><description><![CDATA[Wow! It is so nice to be able to use gh-pages for my Blog site.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</guid><pubDate>Thu, 24 Mar 2022 17:00:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! It is so nice to be able to use gh-pages for my Blog site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog with gh-pages]]></title><description><![CDATA[Trying to deploy Gatsby to gh-pages On deer horse aboard tritely yikes and much The Big Oxmox advised her not to do so, because there were…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</guid><pubDate>Thu, 24 Mar 2022 15:48:32 GMT</pubDate><content:encoded>&lt;p&gt;Trying to deploy Gatsby to gh-pages&lt;/p&gt;
-&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 03:56:26 GMT</lastBuildDate><item><title><![CDATA[New Beginning!]]></title><description><![CDATA[Wow! It is so nice to be able to use gh-pages for my Blog site.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</guid><pubDate>Thu, 24 Mar 2022 17:00:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! It is so nice to be able to use gh-pages for my Blog site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog with gh-pages]]></title><description><![CDATA[How to build a Gatsby site on your local hard drive? Gatsby @GitHub How to add your Gatsby site to your GitHub Repo? . Create a new repo…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</guid><pubDate>Thu, 24 Mar 2022 15:48:32 GMT</pubDate><content:encoded>&lt;h2&gt;How to build a Gatsby site on your local hard drive?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby @GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;How to add your Gatsby site to your GitHub Repo?&lt;/h2&gt;
+&lt;p&gt;. &lt;a href=&quot;https://docs.github.com/en/get-started/quickstart/create-a-repo&quot;&gt;Create a new repo&lt;/a&gt;
+. Add your new repo to your Gatsby site on your local hard drive using Git-cli&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;Well uncritical so misled
+&lt;li&gt;git init&lt;/li&gt;
+&lt;li&gt;git branch -M main&lt;/li&gt;
+&lt;li&gt;git remote add origin &lt;a href=&quot;https://github.com/%7Byourgithubuser%7D/%7Byourrepo%7D.git&quot;&gt;https://github.com/{yourgithubuser}/{yourrepo}.git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git push -u origin main&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;How to add your Gatsby site to your GitHub gh-pages branch?&lt;/h2&gt;
+&lt;p&gt;Steps are below:&lt;/p&gt;
+&lt;h3&gt;How to add gh-pages branch to your GitHub Repo?&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;li&gt;git branch -M gh-pages&lt;/li&gt;
+&lt;li&gt;git push -u origin gh-pages&lt;/li&gt;
+&lt;li&gt;git branch -M main&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;h3&gt;How to add gh-pages related config to package.json?&lt;/h3&gt;
+&lt;p&gt;. Add gh-pages homepage property to package.json:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;{
+“name”: “my-app”,
+“version”: “0.1.0”,
+“homepage”: https://{username}.github.io/{repo-name},&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
-view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
-&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.&lt;/p&gt;
-&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
-&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;So baboon this&lt;/li&gt;
-&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
-&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
-&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
-impassive fruitlessly shut&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and
-return to its own, safe country.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.&lt;/p&gt;
-&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
-&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.&lt;/p&gt;
-&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
-&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
-&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.&lt;/p&gt;
-&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[My Gatsby Blog on gh-pages! How exciting! Some examples on how to use markup in Gatsby Blog. Oh, and here’s a great quote from this…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><pubDate>Thu, 24 Mar 2022 15:45:03 GMT</pubDate><content:encoded>&lt;p&gt;My Gatsby Blog on gh-pages! How exciting!&lt;/p&gt;
+&lt;p&gt;. Add gh-pages deployment scripts to package.json:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“scripts”: {
+“predeploy”: “npm run build”,
+“deploy”: “gh-pages -d build”,&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;How to deploy your Gatsby site to gh-pages branch of your GitHub repo?&lt;/h3&gt;
+&lt;p&gt;. Deploy your Gatsby site to GitHub repo in gh-pages branch&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;npm run deploy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;How to enable gh-pages branch to show your Gatsby site?&lt;/h3&gt;
+&lt;p&gt;. Set your pages to gh-pages: &lt;a href=&quot;https://github.com/%7Byourgithubuser%7D/%7Byourrepo%7D/settings/pages&quot;&gt;https://github.com/{yourgithubuser}/{yourrepo}/settings/pages&lt;/a&gt;
+. Wait until the “Action” is done then you can see your published site at: https://{yourgithubuser}.github.io/{yourrepo}/&lt;/p&gt;
+&lt;p&gt;All done!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[My Gatsby Blog on gh-pages! How exciting! Some examples on how to use markup in Gatsby Blog. Oh, and here’s a great quote from this…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><pubDate>Thu, 24 Mar 2022 15:45:03 GMT</pubDate><content:encoded>&lt;p&gt;My Gatsby Blog on gh-pages! How exciting!&lt;/p&gt;
 &lt;p&gt;Some examples on how to use markup in Gatsby Blog.&lt;/p&gt;
 &lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
