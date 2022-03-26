@@ -38,11 +38,10 @@ Steps are below:
 . Add gh-pages homepage property to package.json:
 
   ```diff
-    {
-      "name": "my-app",
-      "version": "0.1.0",
-    + "homepage": "https://{username}.github.io/{repo-name}",
-      "private": true,
+  {
+  "name": "co-gatsby-blog",
+  "version": "0.1.0",  
+  "homepage": "https://chanhong.github.io",  
   ```
 
 

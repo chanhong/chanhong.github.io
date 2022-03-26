@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
-  "private": true,
+  "name": "co-gatsby-blog",
+  "version": "0.1.0",  
+  "homepage": "https://chanhong.github.io",  
+  "private": true,  
   "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
@@ -36,7 +37,6 @@
     "gh-pages": "^3.2.3",
     "prettier": "^2.6.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
     "gatsby"
   ],
@@ -47,12 +47,12 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
