@@ -20,16 +20,17 @@
     <span class="token function">git</span> branch -M main</code></pre></div>
 <h5>How to add gh-pages related config to package.json?</h5>
 <p>. Add gh-pages homepage property to package.json:</p>
-<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">{
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">```diff
+{
 "name": "co-gatsby-blog",
 "version": "0.1.0",  
-"homepage": "https://chanhong.github.io",  </code></pre></div>
++ "homepage": "https://chanhong.github.io",  
+```</code></pre></div>
 <p>. Add gh-pages deployment scripts to package.json:</p>
-<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff"><span class="token unchanged"><span class="token prefix unchanged"> </span> "scripts": {
-<span class="token prefix unchanged"> </span> +   "predeploy": "npm run build",
-<span class="token prefix unchanged"> </span> +   "deploy": "gatsby build --prefix-paths &amp;&amp; gh-pages -d public",
-<span class="token prefix unchanged"> </span>     "start": "react-scripts start",
-<span class="token prefix unchanged"> </span>     "build": "react-scripts build",</span></code></pre></div>
+<div class="gatsby-highlight" data-language="diff"><pre class="language-diff"><code class="language-diff">"scripts": {
+<span class="token unchanged"><span class="token prefix unchanged"> </span> "build": "gatsby build",
+</span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span>  "deploy": "gatsby build --prefix-paths &amp;&amp; gh-pages -d public",
+</span><span class="token unchanged"><span class="token prefix unchanged"> </span> "develop": "gatsby develop",</span></code></pre></div>
 <h5>How to deploy your Gatsby site to gh-pages branch of your GitHub repo?</h5>
 <p>. Deploy your Gatsby site to GitHub repo in gh-pages branch</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">  <span class="token function">npm</span> run deploy</code></pre></div>
