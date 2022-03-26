@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Mar 2022 20:33:23 GMT</lastBuildDate><item><title><![CDATA[New Beginning!]]></title><description><![CDATA[Wow! It is so nice to be able to use gh-pages for my Blog site.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</guid><pubDate>Thu, 24 Mar 2022 17:00:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! It is so nice to be able to use gh-pages for my Blog site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog with gh-pages]]></title><description><![CDATA[How to build a Gatsby site on your local hard drive? Gatsby @GitHub How to add your Gatsby site to your GitHub Repo? Create a new repo Add…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</guid><pubDate>Thu, 24 Mar 2022 15:48:32 GMT</pubDate><content:encoded>&lt;h2&gt;How to build a Gatsby site on your local hard drive?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Mar 2022 20:51:10 GMT</lastBuildDate><item><title><![CDATA[New Beginning!]]></title><description><![CDATA[Wow! It is so nice to be able to use gh-pages for my Blog site.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginning/</guid><pubDate>Thu, 24 Mar 2022 17:00:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! It is so nice to be able to use gh-pages for my Blog site.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Blog with gh-pages]]></title><description><![CDATA[How to build a Gatsby site on your local hard drive? Gatsby @GitHub How to add your Gatsby site to your GitHub Repo? Create a new repo Add…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/gatsby-gh-pages/</guid><pubDate>Thu, 24 Mar 2022 15:48:32 GMT</pubDate><content:encoded>&lt;h2&gt;How to build a Gatsby site on your local hard drive?&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby @GitHub&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;How to add your Gatsby site to your GitHub Repo?&lt;/h2&gt;
 &lt;ol&gt;
@@ -36,7 +36,40 @@
 &lt;li&gt;Set your pages to gh-pages: &lt;a href=&quot;https://github.com/%7Busername%7D/%7Byourrepo%7D/settings/pages&quot;&gt;https://github.com/{username}/{yourrepo}/settings/pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Wait until the “Action” is done then you can see your published site at: https://{username}.github.io/{yourrepo}/&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;All done!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[My Gatsby Blog on gh-pages! How exciting! Some examples on how to use markup in Gatsby Blog. Gatsby Markdown syntax Markdown Kitchen Sink]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><pubDate>Thu, 24 Mar 2022 15:45:03 GMT</pubDate><content:encoded>&lt;p&gt;My Gatsby Blog on gh-pages! How exciting!&lt;/p&gt;
+&lt;p&gt;All done!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[About]]></title><description><![CDATA[My Gatsby Blog on gh-pages! How exciting!  Some examples on how to use markup in Gatsby Blog. Gatsby Markdown syntax Markdown Kitchen Sink]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/about/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/about/</guid><pubDate>Thu, 24 Mar 2022 15:45:03 GMT</pubDate><content:encoded>&lt;p&gt;My Gatsby Blog on gh-pages! How exciting!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dWC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERJC/9oACAEBAAEFAkqW7B5Zovtvk//EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESL/2gAIAQIBAT8BjT//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAaEAADAQEBAQAAAAAAAAAAAAAAAREhQYGx/9oACAEBAAE/IXOrA43oOyg9wgU86OZMfwZKypT/2gAMAwEAAgADAAAAEMjv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxARwyusv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIVH/2gAIAQIBAT8QOoVoX//EAB0QAQEAAgIDAQAAAAAAAAAAAAERADFhgSFB0eH/2gAIAQEAAT8QSpwaGjrBSrtHyF9iY8RpUnGRBGqtOcsiDE6fM3AgiXf5M//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/ff44c/salty_egg.jpg 158w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a6688/salty_egg.jpg 315w,
+/static/8058f3f26913fea3b6a89a73344fe94a/828fb/salty_egg.jpg 630w,
+/static/8058f3f26913fea3b6a89a73344fe94a/0ede0/salty_egg.jpg 945w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3ac88/salty_egg.jpg 1260w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Some examples on how to use markup in Gatsby Blog.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/reference/markdown-syntax/&quot;&gt;Gatsby Markdown syntax&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/adamschwartz/github-markdown-kitchen-sink&quot;&gt;Markdown Kitchen Sink&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
