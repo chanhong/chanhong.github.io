@@ -6,6 +6,8 @@ description: "About Gatsby Blog"
 
 My Gatsby Blog on gh-pages! How exciting!
 
+![Chinese Salty Egg](./salty_egg.jpg)
+
 Some examples on how to use markup in Gatsby Blog.
 
 [Gatsby Markdown syntax](https://www.gatsbyjs.com/docs/reference/markdown-syntax/)
