@@ -37,22 +37,21 @@ Steps are below:
 
 . Add gh-pages homepage property to package.json:
 
-  ```diff
-  {
-  "name": "co-gatsby-blog",
-  "version": "0.1.0",  
-  "homepage": "https://chanhong.github.io",  
-  ```
-
+    ```diff
+    {
+    "name": "co-gatsby-blog",
+    "version": "0.1.0",  
+    + "homepage": "https://chanhong.github.io",  
+    ```
+    
 
 . Add gh-pages deployment scripts to package.json:
 
   ```diff
-    "scripts": {
-    +   "predeploy": "npm run build",
-    +   "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-        "start": "react-scripts start",
-        "build": "react-scripts build",
+  "scripts": {
+    "build": "gatsby build",
+  +  "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
   ```
 
 
