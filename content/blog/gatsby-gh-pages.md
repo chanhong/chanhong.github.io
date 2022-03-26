@@ -37,12 +37,12 @@ Steps are below:
 
 . Add gh-pages homepage property to package.json:
 
-    ```diff
-    {
+  ```diff
+  {
     "name": "co-gatsby-blog",
     "version": "0.1.0",  
-    + "homepage": "https://chanhong.github.io",  
-    ```
+  + "homepage": "https://chanhong.github.io",  
+  ```
     
 
 . Add gh-pages deployment scripts to package.json:
